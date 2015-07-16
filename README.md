@@ -47,7 +47,7 @@ For example:
     ranked things in a contest. Radical
     
 
-* There are tricky properties this number needs to have which I can't say I
+\* There are tricky properties this number needs to have which I can't say I
 fully understand, but I think I've dealt with this appropriately in the code.
 
 ** That number is a total accident. Life is funny.
