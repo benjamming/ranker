@@ -5,7 +5,6 @@ from __future__ import division
 # compatible, and it's been long enough since I used v2 that I don't know if
 # this all will work in it anyway. I think it will.
 
-""" MODEL NOTES """
 
 import random
 # import library named random.
