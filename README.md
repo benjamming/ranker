@@ -46,6 +46,17 @@ For example:
     We conclude that higher ranked things will be expected to beat lower
     ranked things in a contest. Radical
     
+    
+So we need a way to store strength values, which is the code object StrengthVector.
+Similarly, GameData stores ranked pairs of items.
+
+How do we get accurate strength values for each item? The class Model ties StrengthVector and GameData
+together and using a formula in Model.update_strengths, iterates over the data and updates our
+strength values, which gives an updated and improved ranking of items.
+
+I also wrote a quick-and-dirty class called Interface which gives an example of how to write code that
+can interact with the model and add information to it in a (hopefully) intuitive way.
+    
 
 \* There are tricky properties this number needs to have which I can't say I
 fully understand, but I think I've dealt with this appropriately in the code.
